@@ -12,6 +12,7 @@
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
+    flex-direction: wrap;
     flex-wrap: wrap;
 }
 
