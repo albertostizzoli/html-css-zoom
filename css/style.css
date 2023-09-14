@@ -5,15 +5,16 @@
 }
 
 .container{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: black;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .debug{
@@ -25,14 +26,15 @@
 
 img{
     width: 13vw;
-    height: 15vh;
+    height: 13vh;
     object-fit: cover;
 }
 
 .box{
     width: 13vw;
-    height: 15vh;
+    height: 13vh;
     margin-right: 5px;
+    margin-bottom: 10px;
     position: relative;
 }
 
