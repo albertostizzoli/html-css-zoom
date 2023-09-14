@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.debug{
+    border: 1px solid white;
+}
+
+/* Sfondi Videochiamata */
+
+img{
+    width: 13vw;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.box{
+    width: 13vw;
+    height: 15vh;
+    margin-right: 5px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(127, 127, 127, 0.5);
+    color: white;
+}
+
+.fa-solid{
+    color: white;
+}
+
+.play-bar{
+    height: 90px;
+    background-color: rgb(49, 48, 48);
+}
+
