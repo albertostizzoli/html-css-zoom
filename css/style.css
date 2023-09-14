@@ -12,7 +12,7 @@
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-    flex-direction: wrap;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -21,6 +21,7 @@
 }
 
 /* Sfondi Videochiamata */
+
 
 img{
     width: 13vw;
