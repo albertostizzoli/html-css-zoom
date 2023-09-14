@@ -54,12 +54,13 @@ img{
 /* Inizio Barra Applicazioni */
 
 footer{
-    height: 80px;
-    padding-top: 30px;
+    height: 125px;
+    padding-top: 50px;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgb(47, 46, 46);
 }
 
 footer .fa-solid{
