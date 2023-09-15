@@ -15,10 +15,25 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
+    position: relative;
 }
 
-.debug{
-    border: 1px solid white;
+.top-bar{
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 /* Sfondi Videochiamata */
