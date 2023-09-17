@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Zoom</title>
 </head>
+
 <body>
     <div class="container debug">
         <div class="top-bar">
@@ -261,29 +266,62 @@
             </div>
         </div>
         <!-- fine Sfondi Video Chiamata -->
+        <div class="tool-bar flex-1 justify-between align-center">
+            <div class="tool-bar-left flex-1 align-center">
+                <div class="tool">
+                    <i class="fa-solid fa-microphone-slash"></i>
+                    <span>Mute</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-video"></i>
+                    <span>Stop Video</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+            </div>
+            <div class="tool-bar-center flex-1 align-center">
+                <div class="tool">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <span>Invite</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Manage Participants</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Polling</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-share-from-square" style="color: #1dd755;"></i>
+                    <span>Share Screen</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                <div class="tool">
+                    <i class="fa-regular fa-comment"></i>
+                    <span>Chat</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <span>Record</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <span>Breakout Rooms</span>
+                </div>
+                <div class="tool">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>More</span>
+                </div>
+            </div>
+            <button class="button-red"><strong>End Meeting</strong></button>
+        </div>
     </div>
-    <footer>
-        <div>
-            <ul class="flex-1">
-                <li><a href="#"><i class="fa-solid fa-microphone-slash"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-video"></i></a></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="flex-1">
-                <li><a href="#"><i class="fa-solid fa-user-plus"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-users"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-chart-simple"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-share-from-square" style="color: #1dd755;"></i></a></li>
-                <li><a href="#"><i class="fa-regular fa-comment"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-record-vinyl"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-table-cells-large"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-            </ul>
-        </div>
-        <div class="call">
-            <h5>End Meeting</h5>
-        </div>
-    </footer>
 </body>
 </html>

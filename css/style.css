@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -64,45 +68,52 @@ img{
     color: white;
 }
 
+.fa-regular{
+    color: white;
+}
+
 /* fine Sfondi Videochiamata */
 
 /* Inizio Barra Applicazioni */
 
-footer{
-    height: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(35, 34, 34);
+.tool-bar{
+    height: 90px;
+    background-color: rgb(57, 57, 57);
+    margin-top: 50px;
 }
 
-footer .fa-solid{
-    font-size: 30px;
-}
-
-.fa-regular{
-    color: white;
-    font-size: 30px;
+.tool-bar-center{
+    margin-left: 100px;
 }
 
 .flex-1{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
 }
 
-ul li{
-    list-style: none;
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+
+.tool{
+    text-align: center;
+}
+
+.tool span{
+    display: block;
+    color: white;
     padding: 10px;
 }
 
-.call{
-    color: red;
-    background-color: rgb(124, 123, 123);
-    font-size: 30px;
+.button-red{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 260px;
 }
